@@ -102,7 +102,7 @@ class _GalleryList extends StatelessWidget {
               return Image.network(
                 pictures[index].urls.regular!,
                 fit: BoxFit.cover,
-                height: 200,
+                height: 220,
               );
             }),
       ),
