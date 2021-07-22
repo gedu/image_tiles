@@ -43,7 +43,7 @@ class _App extends StatelessWidget {
         GlobalMaterialLocalizations.delegate,
       ],
       supportedLocales: AppLocalizations.supportedLocales,
-      home: const HomeScreen(),
+      home: const SafeArea(child: HomeScreen()),
     );
   }
 }

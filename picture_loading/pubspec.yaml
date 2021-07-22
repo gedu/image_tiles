@@ -34,3 +34,8 @@ flutter:
   assets:
     - assets/env/.env
     - assets/env/.env_development
+  fonts:
+    - family: Inconsolata
+      fonts:
+        - asset: assets/fonts/Inconsolata-ExtraLight.ttf
+          weight: 100
